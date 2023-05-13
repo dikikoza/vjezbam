@@ -52,10 +52,9 @@
   font-family: "Nunito Sans", sans-serif;
 }
 body {
-  background: ;
   display: flex;
   flex-direction: column;
-  background-image: url(/bek1.png);
+
   background-color: #8ba7bc;
 }
 .container {
@@ -70,7 +69,7 @@ canvas {
 }
 header {
   display: flex;
-  height: 7rem;
+  height: 10rem;
   background-color: #1a2e3d;
 
   border-bottom: 2px solid #1a2e3d;
@@ -96,7 +95,7 @@ nav ul {
 }
 
 nav a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
@@ -106,42 +105,49 @@ a:hover {
   color: #8ba7bc;
 }
 main {
-  background-color: #8ba7bc;
   display: flex;
-  width: 100%;
-  size: 100%;
 }
-
-main img {
-  filter: saturate(4);
-  width: 100%;
-  filter: grayscale(8);
-  fill-opacity: 3;
-  filter: opacity(8);
-  filter: brightness(-2);
+main p {
+  font-size: 4rem;
 }
 
 .container2 {
+  background-image: url(bek.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 2rem;
-
+  font-size: 3rem;
   position: absolute;
-  margin-top: 10rem;
+  margin-top: 2rem;
   text-align: center;
-  margin-left: 30rem;
-  margin-right: 30rem;
-  border: 2px #fff;
+  gap: 3rem;
 
-  background-color: #1a2e3d;
-  opacity: 0.6;
+  border: 2px #fff;
+  color: #d3eef9;
 }
 .container2 p {
-  padding: 2rem 2rem;
-  font-size: 3rem;
-  background: transparent;
-  color: #fff;
+  padding: 4rem 4rem;
+  margin: 3rem 3rem;
+
+  font-weight: bold;
+
+  color: #f0f5f8;
+}
+
+main .slika img {
+  bottom: -50px;
+}
+.slika h1 {
+  display: flex;
+  justify-content: center;
 }
 .geoprint {
+  display: flex;
   color: #8ba7bc;
   font-weight: bold;
   display: flex;
@@ -160,4 +166,38 @@ main img {
   height: 2px;
 
   background-color: #fff;
+}
+.nasepotrebe {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+  border-radius: 10px;
+  padding: auto;
+  display: flex;
+  box-shadow: #305470;
+  background-color: rgba(48, 84, 112, 0.4);
+}
+
+.donjidio {
+  display: flex;
+  justify-content: center;
+
+  gap: 25rem;
+}
+.donjidio h2 {
+  font-size: 3rem;
+}
+
+.nastim {
+  background-color: rgba(26, 46, 61, 0.4);
+  width: 40%;
+  border-radius: 10px;
+  padding: 5rem 5rem;
+}
+
+.nascilj {
+  background-color: rgba(48, 84, 112, 0.4);
+  width: 40%;
+  padding: 5rem 5rem;
+  border-radius: 10px;
 }
